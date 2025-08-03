@@ -1,20 +1,25 @@
 # CarValuator
-Predict used car prices using machine learning. Includes data preprocessing, EDA, regression modeling, and price prediction features.
-## 📚 Table of Contents
-- [About](#about)
-- [Tech Stack](#tech-stack)
-- [Project Overview](#project-overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-## 📖 About
+# 🚗 Car Price Prediction Using Machine Learning
 
-This project analyzes a dataset of used cars and builds a machine learning model to predict their prices. The aim is to assist users in estimating the current market value of a vehicle based on its characteristics.
+This project uses machine learning to predict the price of used cars based on features like brand, year, fuel type, transmission, and more. It includes data preprocessing, exploratory analysis, and a regression model to estimate prices.
 
-The process includes:
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Model training using regression
-- Evaluation and prediction
+## 🔧 Tools & Technologies
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+
+## 💻 How to Run
+1. Clone the repo:
+git clone https://github.com/your-username/car-price-prediction.git
+2. Open `PRJ Car Price Prediction.ipynb` in Jupyter Notebook.
+3. Run the notebook step by step to see the results and predictions.
+
+## 📈 Sample Output
+- Trained model: Linear Regression
+- Evaluation metric: R² Score = 0.87 (example)
+- Predicts prices based on user input features
+
+## 📄 License
+MIT License
